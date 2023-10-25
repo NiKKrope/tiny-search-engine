@@ -1,0 +1,265 @@
+bash testing.sh
+make[1]: Entering directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/querier'
+rm -rf *.dSYM  # MacOS debugger info
+rm -f *~ *.o
+rm -f querier
+rm -f queriertest
+rm -f core
+rm -f testing.out
+rm -f queriertest.o
+rm ~/cs50-dev/tse-NiKKrope/common/testing.out
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/testing.out': No such file or directory
+make[1]: *** [Makefile:37: clean] Error 1
+make[1]: Leaving directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/querier'
+make[1]: Entering directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope'
+rm -f *~
+rm -f TAGS
+make -C libcs50 clean
+make[2]: Entering directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/libcs50'
+rm -f core
+rm -f libcs50.a *~ *.o
+make[2]: Leaving directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/libcs50'
+make -C common clean
+make[2]: Entering directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common'
+rm -rf *.dSYM  # MacOS debugger info
+rm -f *~ *.o
+rm -f common.a
+rm -f core
+rm -f {1..100}
+make[2]: Leaving directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common'
+make -C crawler clean
+make[2]: Entering directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/crawler'
+rm -rf *.dSYM  # MacOS debugger info
+rm -f *~ *.o
+rm -f crawler
+rm -f core
+rm ~/cs50-dev/tse-NiKKrope/common/.crawler
+rm ~/cs50-dev/tse-NiKKrope/common/{1..100} 
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/1': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/2': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/3': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/4': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/5': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/6': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/7': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/8': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/9': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/10': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/11': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/12': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/13': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/14': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/15': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/16': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/17': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/18': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/19': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/20': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/21': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/22': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/23': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/24': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/25': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/26': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/27': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/28': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/29': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/30': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/31': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/32': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/33': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/34': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/35': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/36': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/37': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/38': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/39': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/40': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/41': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/42': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/43': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/44': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/45': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/46': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/47': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/48': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/49': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/50': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/51': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/52': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/53': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/54': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/55': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/56': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/57': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/58': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/59': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/60': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/61': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/62': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/63': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/64': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/65': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/66': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/67': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/68': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/69': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/70': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/71': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/72': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/73': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/74': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/75': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/76': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/77': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/78': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/79': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/80': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/81': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/82': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/83': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/84': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/85': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/86': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/87': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/88': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/89': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/90': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/91': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/92': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/93': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/94': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/95': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/96': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/97': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/98': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/99': No such file or directory
+rm: cannot remove '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/100': No such file or directory
+make[2]: *** [Makefile:38: clean] Error 1
+make[2]: Leaving directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/crawler'
+make[1]: *** [Makefile:28: clean] Error 2
+make[1]: Leaving directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope'
+make[1]: Entering directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope'
+(cd libcs50 && if [ -r set.c ]; then make libcs50.a; else cp libcs50-given.a libcs50.a; fi)
+make -C common
+make[2]: Entering directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common'
+cc    -c -o pagedir.o pagedir.c
+ar cr common.a pagedir.o 
+make[2]: Leaving directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common'
+make -C crawler
+make[2]: Entering directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/crawler'
+gcc -Wall -pedantic -std=c11 -ggdb  -I../libcs50 -I../common   -c -o crawler.o crawler.c
+gcc -Wall -pedantic -std=c11 -ggdb  -I../libcs50 -I../common crawler.o ../common/common.a ../libcs50/libcs50-given.a ../common/common.a ../libcs50/libcs50-given.a -o crawler
+make[2]: Leaving directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/crawler'
+# make -C indexer
+# make -C querier
+make[1]: Leaving directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope'
+make[1]: Entering directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/indexer'
+gcc -Wall -pedantic -std=c11 -ggdb -DMEMTEST -I../libcs50 -I../common indexer.o ../common/common.a ../libcs50/libcs50-given.a ../common/common.a ../libcs50/libcs50-given.a -o indexer
+make[1]: Leaving directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/indexer'
+make[1]: Entering directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/querier'
+gcc -Wall -pedantic -std=c11 -ggdb -DMEMTEST -I../libcs50 -I../common   -c -o querier.o querier.c
+gcc -Wall -pedantic -std=c11 -ggdb -DMEMTEST -I../libcs50 -I../common querier.o ../common/common.a ../libcs50/libcs50-given.a ../common/common.a ../libcs50/libcs50-given.a -o querier
+make[1]: Leaving directory '/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/querier'
+0 Fetched: http://cs50tse.cs.dartmouth.edu/tse/letters/ 
+0 Scanning: http://cs50tse.cs.dartmouth.edu/tse/letters/ 
+0 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/A.html 
+0 Added: http://cs50tse.cs.dartmouth.edu/tse/letters/A.html 
+1 Fetched: http://cs50tse.cs.dartmouth.edu/tse/letters/A.html 
+1 Scanning: http://cs50tse.cs.dartmouth.edu/tse/letters/A.html 
+1 Found: https://en.wikipedia.org/wiki/Algorithm 
+1 IgnExtrn: https://en.wikipedia.org/wiki/Algorithm 
+1 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/B.html 
+1 Added: http://cs50tse.cs.dartmouth.edu/tse/letters/B.html 
+1 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+1 Added: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+2 Fetched: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+2 Scanning: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+2 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/A.html 
+2 IgnDupl: http://cs50tse.cs.dartmouth.edu/tse/letters/A.html 
+2 Fetched: http://cs50tse.cs.dartmouth.edu/tse/letters/B.html 
+2 Scanning: http://cs50tse.cs.dartmouth.edu/tse/letters/B.html 
+2 Found: https://en.wikipedia.org/wiki/Breadth-first_search 
+2 IgnExtrn: https://en.wikipedia.org/wiki/Breadth-first_search 
+2 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/C.html 
+2 Added: http://cs50tse.cs.dartmouth.edu/tse/letters/C.html 
+2 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/D.html 
+2 Added: http://cs50tse.cs.dartmouth.edu/tse/letters/D.html 
+2 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/E.html 
+2 Added: http://cs50tse.cs.dartmouth.edu/tse/letters/E.html 
+2 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+2 IgnDupl: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+3 Fetched: http://cs50tse.cs.dartmouth.edu/tse/letters/E.html 
+3 Scanning: http://cs50tse.cs.dartmouth.edu/tse/letters/E.html 
+3 Found: https://en.wikipedia.org/wiki/ENIAC 
+3 IgnExtrn: https://en.wikipedia.org/wiki/ENIAC 
+3 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/F.html 
+3 Added: http://cs50tse.cs.dartmouth.edu/tse/letters/F.html 
+3 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/G.html 
+3 Added: http://cs50tse.cs.dartmouth.edu/tse/letters/G.html 
+3 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/A.html 
+3 IgnDupl: http://cs50tse.cs.dartmouth.edu/tse/letters/A.html 
+3 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+3 IgnDupl: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+4 Fetched: http://cs50tse.cs.dartmouth.edu/tse/letters/G.html 
+4 Scanning: http://cs50tse.cs.dartmouth.edu/tse/letters/G.html 
+4 Found: https://en.wikipedia.org/wiki/Graph_traversal 
+4 IgnExtrn: https://en.wikipedia.org/wiki/Graph_traversal 
+4 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/H.html 
+4 Added: http://cs50tse.cs.dartmouth.edu/tse/letters/H.html 
+4 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+4 IgnDupl: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+5 Fetched: http://cs50tse.cs.dartmouth.edu/tse/letters/H.html 
+5 Scanning: http://cs50tse.cs.dartmouth.edu/tse/letters/H.html 
+5 Found: https://en.wikipedia.org/wiki/Huffman_coding 
+5 IgnExtrn: https://en.wikipedia.org/wiki/Huffman_coding 
+5 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/B.html 
+5 IgnDupl: http://cs50tse.cs.dartmouth.edu/tse/letters/B.html 
+5 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+5 IgnDupl: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+4 Fetched: http://cs50tse.cs.dartmouth.edu/tse/letters/F.html 
+4 Scanning: http://cs50tse.cs.dartmouth.edu/tse/letters/F.html 
+4 Found: https://en.wikipedia.org/wiki/Fast_Fourier_transform 
+4 IgnExtrn: https://en.wikipedia.org/wiki/Fast_Fourier_transform 
+4 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/H.html 
+4 IgnDupl: http://cs50tse.cs.dartmouth.edu/tse/letters/H.html 
+4 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+4 IgnDupl: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+3 Fetched: http://cs50tse.cs.dartmouth.edu/tse/letters/D.html 
+3 Scanning: http://cs50tse.cs.dartmouth.edu/tse/letters/D.html 
+3 Found: https://en.wikipedia.org/wiki/Depth-first_search 
+3 IgnExtrn: https://en.wikipedia.org/wiki/Depth-first_search 
+3 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+3 IgnDupl: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+3 Fetched: http://cs50tse.cs.dartmouth.edu/tse/letters/C.html 
+3 Scanning: http://cs50tse.cs.dartmouth.edu/tse/letters/C.html 
+3 Found: https://en.wikipedia.org/wiki/Computational_biology 
+3 IgnExtrn: https://en.wikipedia.org/wiki/Computational_biology 
+3 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/D.html 
+3 IgnDupl: http://cs50tse.cs.dartmouth.edu/tse/letters/D.html 
+3 Found: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+3 IgnDupl: http://cs50tse.cs.dartmouth.edu/tse/letters/index.html 
+/thayerfs/home/f006hj4/cs50-dev/tse-NiKKrope/common/.indexer
+Query: Invalid Query 
+
+Test case 1: Invalid query
+No crawler output found 
+
+Test case 2: Missing index file
+Unable to accesss ../common/nonexistentfile 
+../common/nonexistentfile
+
+Test case 3: Valid query
+../common/.indexer
+Query: Clean Query: for AND for OR for
+Top Score 2;    DocID: 1;    Url:http://cs50tse.cs.dartmouth.edu/tse/letters/
+Top Score 2;    DocID: 2;    Url:http://cs50tse.cs.dartmouth.edu/tse/letters/A.html
+Top Score 2;    DocID: 3;    Url:http://cs50tse.cs.dartmouth.edu/tse/letters/index.html
+Top Score 2;    DocID: 4;    Url:http://cs50tse.cs.dartmouth.edu/tse/letters/B.html
+Top Score 2;    DocID: 5;    Url:http://cs50tse.cs.dartmouth.edu/tse/letters/E.html
+Top Score 2;    DocID: 6;    Url:http://cs50tse.cs.dartmouth.edu/tse/letters/G.html
+Top Score 2;    DocID: 7;    Url:http://cs50tse.cs.dartmouth.edu/tse/letters/H.html
+Top Score 2;    DocID: 8;    Url:http://cs50tse.cs.dartmouth.edu/tse/letters/F.html
+Top Score 2;    DocID: 9;    Url:http://cs50tse.cs.dartmouth.edu/tse/letters/D.html
+Top Score 2;    DocID: 10;    Url:http://cs50tse.cs.dartmouth.edu/tse/letters/C.html
+Query: 

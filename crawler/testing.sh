@@ -1,0 +1,1 @@
+./crawler/crawler http://cs50tse.cs.dartmouth.edu/tse/letters/index.html ~/cs50-dev/tse-NiKKrope/common 10
